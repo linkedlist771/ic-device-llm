@@ -3,12 +3,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# API key
+src/ic_device_llm/configs/api_key_config.py
+
+
 # C extensions
 *.so
 .idea
 
 resources/raw-data
-
+resources/
+*png
 # Distribution / packaging
 .Python
 build/
