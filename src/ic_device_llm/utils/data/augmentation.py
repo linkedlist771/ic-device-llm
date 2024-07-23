@@ -48,7 +48,7 @@ if __name__ == "__main__":
     from loguru import logger
     # 加载 .npz 文件
     data = np.load(
-        'C:\\Users\\23174\\Desktop\\GitHub Project\\ic-device-llm\\resources\\deposition\\processed_data\\sub1_5.npz')
+        'C:\\Users\\23174\\Desktop\\GitHub Project\\ic-device-llm\\resources\\deposition\\\letter_box_384x512_processed_data\\sub1_5.npz')
     input_image = data["images"][40]
     logger.info(f"Input image shape: {input_image.shape}")
     target_size = (128 + 256, 512)
